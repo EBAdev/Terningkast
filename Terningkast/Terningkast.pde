@@ -26,12 +26,12 @@ void draw(){
   rect(500,600,100,-SIX);
   
 
-  text(ONE,50,590-ONE);
-  text(TWO,150,590-TWO);
-  text(THREE,250,590-THREE);
-  text(FOUR,350,590-FOUR);
-  text(FIVE,450,590-FIVE);
-  text(SIX,550,590-SIX);
+  text("1: "+ONE,50,590-ONE);
+  text("2: "+TWO,150,590-TWO);
+  text("3: "+THREE,250,590-THREE);
+  text("4: "+FOUR,350,590-FOUR);
+  text("5: "+FIVE,450,590-FIVE);
+  text("6: "+SIX,550,590-SIX);
   
 kast = int(random(1,7));
 
